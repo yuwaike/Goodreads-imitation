@@ -41,12 +41,20 @@ p {
 }
 
 
-.intro {
-  font-family: calibri;
+.table_header {
+  font-size: 25px;
+}
+
+.table1 {
   font-size: 16px;
-  display: block;
-  margin-left: 450px;
+  font-family: calibri;
+  margin-left: 400px;
   margin-right: 900px;
+  padding: 1em;
+}
+
+.td {
+  padding: 19px;
 }
 
 .p4 {
@@ -73,6 +81,11 @@ p {
   margin-left: auto;
   margin-right: 900px;
   border-radius: 8px;
+}
+
+.shelf_table {
+  margin-left: 400px;
+  margin-right: 900px;
 }
 
 .bookimg {
@@ -216,7 +229,7 @@ p {
   font-size: 14px;
   font-family: calibri;
   border-radius: 2px;
-  background-color: #f2ede1
+  background-color: #f2ede1;
 }
 
 .button2 {
@@ -241,6 +254,13 @@ p {
   font-size: 19px;
   text-align: left;
   font-weight: medium;
+  margin-left: 10px;
+  margin-right: 300px;
+}
+
+.search-container {
+  margin-left: 450px;
+  margin-right: 900px;
 }
 
 .list {
@@ -251,10 +271,23 @@ p {
   margin-left: 5px;
   text-align: left;
   width: 960px;
+  margin-left: 450px;
+  margin-right: 900px;
+
+.table_list1 {
+  margin-left: 450px;
+  margin-right: 900px;
+}
 
 .img {
   padding: 5px;
   width: 75px;
+
+}
+
+.oscar {
+  width:px;
+  height: 75px;
 }
 
 .quotes {
@@ -302,6 +335,6 @@ p {
 }
 
 .bottom {
-  height: 170px;
+  height: 0px;
   width:  115px;
 }
